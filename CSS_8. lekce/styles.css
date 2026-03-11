@@ -2,4 +2,47 @@ body {
     background-image: url(./assets/trabant\ 601.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+}
+.scroll-block{
+    background: rgba(247, 226, 169, 0.534);
+    width: 5%;
+    border-radius: 12px;
+    text-align: center;
+}
+h1{
+    background: yellow;
+    width: 50%;
+    text-align: center;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+.alpha, opacity{
+padding: 16px;
+margin: 12px;
+border: 2px solid;
+border-radius: 12px;
+max-width: 720px;
+}
+.alpha{
+    background-color: aliceblue;
+}
+.opacity{
+    background-color: white;
+    opacity: 0,5;
+}
+.g{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    display: grid;
+    place-items: center;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.linear{
+    background-image: linear-gradient(to right, white, green);
+}
+.radial{
+    background-image: radial-gradient(green 20%, white);
 }
