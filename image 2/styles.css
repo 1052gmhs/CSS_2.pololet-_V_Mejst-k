@@ -1,0 +1,41 @@
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.text{
+    background-color: white;
+    width: 440px;
+    padding: 45px 50px;
+    border-radius: 15px;
+    box-shadow: 0 12px 25px rgb(82, 82, 82);
+}
+.nadpis h1{
+    color: blue;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.nadpis p{
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+.content{
+    font-size: 15px;
+    line-height: 1.6;
+}
+.blue-text{
+    color: blue;
+}
+.red-text{
+    color: red;
+}
+.footer-text{
+    color: rgb(71, 71, 71);
+}

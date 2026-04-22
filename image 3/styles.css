@@ -1,0 +1,67 @@
+body{
+    background-color: rgba(211, 212, 212, 0.397);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 380px;
+    padding: 40px 30px;
+    border-radius: 30px;
+    box-shadow: 0 10px 25px rgb(150, 150, 150);
+    text-align: center;
+}
+.avatar{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 40px;
+    font-weight: bold;
+    margin: 0 auto 20PX;
+}
+.name{
+font-size: 26px;
+margin: 10px 0;
+color: black;
+}
+.title{
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 25px;
+}
+.description{
+    font-size: 14px;
+    color: black;
+    line-height: 1,6;
+    margin-bottom: 25px;
+}
+.tags{
+    margin-bottom: 30px;
+}
+.tag{
+    background-color: rgba(0, 140, 255, 0.267);
+    color: blue;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin: 0 4px;
+    display: inline-block;
+}
+.button{
+    background-color: blue;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-block;
+}

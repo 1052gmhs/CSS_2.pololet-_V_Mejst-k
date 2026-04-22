@@ -1,0 +1,16 @@
+.obsah{
+    text-align: center;
+    background-color: rgb(125, 174, 216);
+    border-radius: 28px;
+}
+h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: blue;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+    margin: 12px, 0;
+    line-height: 1.6;
+}
