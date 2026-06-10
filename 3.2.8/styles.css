@@ -1,0 +1,95 @@
+input[type="checkbox"]:checked + span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+li:first-child {
+    border: 2px solid black;
+}
+
+li:last-child {
+    border: 2px solid red;
+}
+
+li:nth-child(5) {
+    background-color: yellow;
+}
+
+.btn-demo {
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: rgb(84, 115, 252);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 2s ease-out,
+                transform 250ms ease,
+                box-shadow 250ms ease
+}
+
+.btn-demo:hover {
+    background-color: brown;
+    transform: translateY(20px);
+    box-shadow: 0 10px 20px black;
+}
+.card{
+    border: 5px solid white;
+    position: relative;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 4px 10px black;
+
+    transition: transform 300ms ease-in-out,
+                border-color 1s ease-in-out,
+                box-shadow 300ms ease-in-out;
+}
+.card:hover{
+    border-color: aliceblue;
+    transform: translateY(-20px);
+    box-shadow: 0 14px 28px black;
+}
+.badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: tomato;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.zadní-sekce{
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+.zadní-sekce .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+    max-width: 700px;
+}
+.zadani-sekce .search-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: antiquewhite;
+    border: 2px solid aliceblue;
+    border-radius: 50px;
+    padding: 15px 30px;
+    box-shadow: 0 4px 10px black;
+    box-sizing: border-box;
+}
+.zadani-sekce .search-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 32px;
+    font-family: sans-serif;
+    color: black;
+    background: transparent;
+}
